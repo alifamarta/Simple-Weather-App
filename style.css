@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('assets/img/default.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 1px 1px 1px #1a191980;
+}
+
+#weather-container {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1 1 1 #1a191980;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+#weather-container h1 {
+    margin: 5px;
+    font-size: 42px;
+}
+
+#search-container {
+    padding: 15px;
+    top: 0;
+    right: 0;
+}
+
+#search-container input {
+    width: 250px;
+    height: 28px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+}
+
+#search-container button {
+    margin-left: -4px;
+    width: 75px;
+    height: 29px;
+    background-color: #18191b;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+#search-container button:hover {
+    background-color: #2c2e32
+}
+
+.search-con {
+    border: none;
+    padding: 5px;
+}
+
+#weather-main {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#weather-main div {
+    display: inline-block;
+}
+
+#weather-desc-header {
+    font-size: 20px;
+    vertical-align: 50%;
+}
+
+#temperature {
+    font-size: 35px;
+    vertical-align: 25%;
+}
+
+.bottom-details {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+}
+
+hr {
+    border: 1px solid white;
+    margin: 10px 0;
+}
