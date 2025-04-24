@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/assets/img/default.jpg");
+  background-image: url("../img/default.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
