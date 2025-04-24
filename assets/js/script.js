@@ -1,5 +1,5 @@
-let appid = "4487dfe94d7a57abcd0fe5558fa2cd33";
-let units = "metric";
+let appid = config.APP_ID;
+let units = config.UNITS;
 let searchMethod;
 
 function getSearchMethod(searchTerm) {
